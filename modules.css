@@ -1,36 +1,50 @@
-@media only screen and (min-width: 768px)  {
-main{
-    margin: 0px auto;
+@media  (max-width: 960px)  {
+    main{
+        margin: 0px auto;
+        width: 100%;
+    }
+        body{
+        margin: 0px auto;
+        width: 100%;
+        
+    }
 }
+@media  (min-width: 768px)  {
+ main{
+    margin: 0px auto;
+    
+ }
     body{
     margin: 0px auto;
     
-}
-#a{
+    
+ }
+ #a{
     width: 100%;
     height: 100px;
     text-align: center;
  line-height: 100px;
     background-color: brown;
-}
-#b{
+ }
+ #b{
     width: 20%;
     height: 600px;
     line-height: 600px;
+    float: left;
     text-align: center;
     background-color: chartreuse;
-}
+ }
 
-#c{
+ #c{
     width: 40%;
     height: 200px;
     line-height: 200px;
     text-align: center;
   float: left;
     background-color: coral;
-}
+ }
 
-#d{
+ #d{
     width: 40%;
     
     height: 200px;
@@ -38,16 +52,16 @@ main{
     text-align: center;
    float: right;
     background-color: pink;
-}
-#e{
+ } 
+ #e{
     width: 50%;
     height: 250px;
     line-height: 250px;
     text-align: center;
    float: left;
     background-color: turquoise;
-}
-#f{
+ }
+ #f{
     width:50%;
     height: 250px;
     line-height: 250px;
@@ -55,17 +69,23 @@ main{
     
     float: right;
     background-color:yellow;
+ }
+ #ef{
+    width: 40%;
+    /* height: 25%; */
+    float: left;
+    /* display: inline-block; */
 }
 
-#g{
+ #g{
     width: 50%;
     height: 250px;
     line-height: 250px;
     text-align: center;
     float: left;
     background-color: rgb(2, 85, 77);
-}
-#h{
+ }
+ #h{
     width: 50%;
     height: 250px;
     line-height: 250px;
@@ -73,19 +93,25 @@ main{
     
    float: right;
     background-color:rgb(201, 65, 31);
+ }
+
+ #gh{
+    float: right;
+    width: 40%;
+    /* height: 25%; */
+    /* display: inline-block; */
+    
 }
-
-
-#i{
+ #i{
     width: 80%;
     height: 150px;
     line-height: 150px;
     text-align: center;
     float: left;
     background-color:rgb(79, 21, 214);
+ }
 }
-}
-@media only screen and   (max-width: 767px) {
+@media (max-width: 767px) {
     #a{
         width: 100%;
         height: 75px;
@@ -136,7 +162,12 @@ main{
         float: right;
         background-color:rgb(25, 236, 53);
     }
-    
+    #ef{
+        width: 100%;
+        
+     
+       
+    }
     #g{
         width: 50%;
         height: 250px;
@@ -154,6 +185,12 @@ main{
        float: right;
         background-color:rgb(218, 108, 80);
     }
+    #gh{
+        
+        width: 100%;
+       
+        
+    }
     
     
     #i{
@@ -165,10 +202,20 @@ main{
         background-color:rgb(130, 118, 160);
     }
 }
-@media only screen and (min-width: 961px)  {
-main {
+@media  (min-width: 961px)  {
+/* main {
   
   margin-right: 25%;
   margin-left: 25%;
+} */
+/* body{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+main{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 }
