@@ -1,0 +1,174 @@
+@media only screen and (min-width: 768px)  {
+main{
+    margin: 0px auto;
+}
+    body{
+    margin: 0px auto;
+    
+}
+#a{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+ line-height: 100px;
+    background-color: brown;
+}
+#b{
+    width: 20%;
+    height: 600px;
+    line-height: 600px;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+#c{
+    width: 40%;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+  float: left;
+    background-color: coral;
+}
+
+#d{
+    width: 40%;
+    
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+   float: right;
+    background-color: pink;
+}
+#e{
+    width: 50%;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+   float: left;
+    background-color: turquoise;
+}
+#f{
+    width:50%;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    
+    float: right;
+    background-color:yellow;
+}
+
+#g{
+    width: 50%;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    float: left;
+    background-color: rgb(2, 85, 77);
+}
+#h{
+    width: 50%;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    
+   float: right;
+    background-color:rgb(201, 65, 31);
+}
+
+
+#i{
+    width: 80%;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    float: left;
+    background-color:rgb(79, 21, 214);
+}
+}
+@media only screen and   (max-width: 767px) {
+    #a{
+        width: 100%;
+        height: 75px;
+        text-align: center;
+     line-height: 75px;
+        background-color: rgb(160, 142, 142);
+    }
+    #b{
+        width: 100%;
+        height: 150px;
+        line-height: 150px;
+        text-align: center;
+        background-color: rgb(207, 247, 167);
+    }
+    
+    #c{
+        width: 100%;
+        height: 125px;
+        line-height: 125px;
+        text-align: center;
+      float: left;
+        background-color: rgb(180, 122, 101);
+    }
+    
+    #d{
+        width: 100%;
+        
+        height: 125px;
+        line-height: 125px;
+        text-align: center;
+       float: right;
+        background-color: rgb(230, 34, 67);
+    }
+    #e{
+        width: 50%;
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+       float: left;
+        background-color: rgb(71, 65, 153);
+    }
+    #f{
+        width:50%;
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+        
+        float: right;
+        background-color:rgb(25, 236, 53);
+    }
+    
+    #g{
+        width: 50%;
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+        float: left;
+        background-color: rgb(189, 73, 137);
+    }
+    #h{
+        width: 50%;
+        height: 250px;
+        line-height: 250px;
+        text-align: center;
+        
+       float: right;
+        background-color:rgb(218, 108, 80);
+    }
+    
+    
+    #i{
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        float: left;
+        background-color:rgb(130, 118, 160);
+    }
+}
+@media only screen and (min-width: 961px)  {
+main {
+  
+  margin-right: 25%;
+  margin-left: 25%;
+}
+}
